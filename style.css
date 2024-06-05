@@ -1,0 +1,179 @@
+*{
+        text-decoration: none;
+        margin: 0%;
+        padding: 0%;
+        color: white;
+      }
+      body{
+        align-items: center;
+      }
+ .container{
+  background-color: rgba(12, 70, 12, 0.768) ;
+        width: 98%;
+        margin: 10px;
+        align-content: center;  
+        border: 3px solid rgba(12, 70, 12, 0.768) ;
+       
+      }
+.header{
+  position: fixed;
+  right: 10%;
+  height: 30px;
+  
+}
+.header a{
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  height: 30px;
+  cursor: pointer;
+}
+.build{
+  display: flex;
+  margin-top: 30px;
+}
+.left{
+  width: 30%;
+  
+  display: inline-block;
+}
+.left img{
+background-color: rgb(18, 123, 104) ;
+margin-left: 165px;
+  
+}
+hr{
+  background-color: whitesmoke;
+  height: 4px;
+  width: 99%;
+  margin-left: 5px;
+  border: 1px solid green;
+}
+label{
+  color: white;
+}
+.right{
+  background-color: rgb(48, 52, 51) ;
+  width: 69%;
+  display: inline-block;
+}
+.right img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+}
+h1{
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.left p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  text-align: center;
+  margin: 15px;
+  margin-top: 30px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust card layout */
+  gap: 10px; /* Add gap between cards */
+}
+
+.card {
+  width: 100%; /* Set card width */
+}
+
+#product{
+  width: 100%;
+}
+
+.product h3{
+  color: black;
+  width: 49%;
+  text-align: center;
+}
+.producty{
+  margin-left: 20%;
+}
+.product{
+  width: 100%;
+}
+ul{
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.productss{
+  display: block;
+  margin: 10px;
+}
+.services{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h2{
+  width: 99%;
+  text-align: center;
+}
+
+.art{
+  background-color:black;
+   
+}.equipment {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust card layout */
+  gap: 10px; /* Add gap between cards */
+}
+
+.equipment img {
+  width: 100%; /* Set card width */
+}
+
+
+@media screen and (max-width:600px){
+  .header{
+   font-size: 12px;
+   display: block;
+    
+  }
+  .left{
+    width: 100%;
+    
+    display:block;
+  }
+  .left img{
+  margin-left: 35%; 
+  }
+  .left p{
+    font-size: 17px;
+  }
+  h1{
+    font-size: small;
+  }
+  .right{
+    display: block;
+    width: 100%;
+    height: 250px;
+  }
+  .right img{
+    width: 100%;
+   height: 250px;
+  }
+  .card {
+    width: 70%;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 16px;
+  }
+}
